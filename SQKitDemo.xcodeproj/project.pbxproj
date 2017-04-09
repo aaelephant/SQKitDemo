@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					A13ABB8D1E9A534300B9F01B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6EYUBTRJ5;
 						ProvisioningStyle = Automatic;
 					};
 					A13ABBA61E9A534300B9F01B = {
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQKitDemo;
@@ -435,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQKitDemo;
