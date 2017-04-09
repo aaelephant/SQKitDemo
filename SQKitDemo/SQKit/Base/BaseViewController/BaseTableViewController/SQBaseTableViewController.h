@@ -12,6 +12,7 @@
 #import "SQKeyboardTool.h"
 #import "SQDefine.h"
 
+//tableViewController 主要是系统控制键盘弹出时，tableView自己滚动到可见区域
 @interface SQBaseTableViewController : UITableViewController<BaseBackForResultDelegate>
 
 @property (nonatomic) SQKeyboardTool * keyTool;
@@ -34,10 +35,10 @@
 - (void)pushViewController:(UIViewController *)vc animated:(BOOL)animated;
 
 - (void)backForResult:(id)info resultCode:(NSInteger)resultCode;
-- (void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
-- (void)removeNullView;
-- (void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
-- (void)removeNetErrorV;
+//- (void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
+//- (void)removeNullView;
+//- (void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
+//- (void)removeNetErrorV;
 
 @end
 

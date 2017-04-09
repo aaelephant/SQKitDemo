@@ -26,6 +26,7 @@
 		A13ABC401E9A569000B9F01B /* SQCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE61E9A569000B9F01B /* SQCollectionViewDelegate.m */; };
 		A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE81E9A569000B9F01B /* SQTableViewDelegate.m */; };
 		A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */; };
+		A13ABC6B1E9A62C400B9F01B /* WVRRouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC6A1E9A62C400B9F01B /* WVRRouterDispatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,9 @@
 		A13ABC641E9A5D3F00B9F01B /* SQKeyboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQKeyboardTool.h; sourceTree = "<group>"; };
 		A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQKeyboardTool.m; sourceTree = "<group>"; };
 		A13ABC671E9A5DD800B9F01B /* SNUtilToolHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNUtilToolHead.h; sourceTree = "<group>"; };
+		A13ABC681E9A5F5C00B9F01B /* SQBaseControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseControllerDelegate.h; sourceTree = "<group>"; };
+		A13ABC691E9A62C400B9F01B /* WVRRouterDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRRouterDispatcher.h; sourceTree = "<group>"; };
+		A13ABC6A1E9A62C400B9F01B /* WVRRouterDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRRouterDispatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,8 @@
 			children = (
 				A13ABC671E9A5DD800B9F01B /* SNUtilToolHead.h */,
 				A13ABC621E9A5CE100B9F01B /* SQDefine.h */,
+				A13ABC691E9A62C400B9F01B /* WVRRouterDispatcher.h */,
+				A13ABC6A1E9A62C400B9F01B /* WVRRouterDispatcher.m */,
 				A13ABC631E9A5D3F00B9F01B /* KeyboardTool */,
 				A13ABBC51E9A569000B9F01B /* Base */,
 				A13ABBE41E9A569000B9F01B /* Core */,
@@ -220,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				A13ABBD61E9A569000B9F01B /* BaseBackForResultDelegate.h */,
+				A13ABC681E9A5F5C00B9F01B /* SQBaseControllerDelegate.h */,
 			);
 			path = BaseProtocol;
 			sourceTree = "<group>";
@@ -433,6 +440,7 @@
 				A13ABB961E9A534300B9F01B /* AppDelegate.m in Sources */,
 				A13ABB931E9A534300B9F01B /* main.m in Sources */,
 				A13ABC3F1E9A569000B9F01B /* SQBaseViewController.m in Sources */,
+				A13ABC6B1E9A62C400B9F01B /* WVRRouterDispatcher.m in Sources */,
 				A13ABC3E1E9A569000B9F01B /* SQBaseTableViewController.m in Sources */,
 				A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */,
 				A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */,

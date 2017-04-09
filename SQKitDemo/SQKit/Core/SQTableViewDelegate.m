@@ -191,7 +191,9 @@
            delResult = cellInfo.willDeleteBlock(cellInfo);
         }
         if(delResult){
-            [sectionInfo.cellDataArray removeObject:cellInfo];
+            NSMutableArray * cur = [NSMutableArray arrayWithArray:sectionInfo.cellDataArray];
+            [cur removeObject:cellInfo];
+            sectionInfo.cellDataArray = cur;
             [tableView reloadData];
         }
     }
@@ -238,6 +240,11 @@
         _cellDataArray = [NSMutableArray array];
     }
     return _cellDataArray;
+}
+
+-(void)dispatch
+{
+
 }
 @end
 

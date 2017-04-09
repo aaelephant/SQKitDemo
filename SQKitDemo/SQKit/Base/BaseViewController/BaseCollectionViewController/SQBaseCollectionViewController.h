@@ -37,10 +37,10 @@
 - (void)pushViewController:(UIViewController *)vc animated:(BOOL)animated;
 
 - (void)backForResult:(id)info resultCode:(NSInteger)resultCode;
-
-- (void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
-- (void)removeNullView;
-- (void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
-- (void)removeNetErrorV;
+//
+//- (void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
+//- (void)removeNullView;
+//- (void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
+//- (void)removeNetErrorV;
 
 @end

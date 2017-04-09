@@ -17,14 +17,14 @@ typedef NS_ENUM (NSInteger, SQTableViewSectionStyle){
 
 @interface SQBaseTableViewInfo : NSObject
 
-@property (nonatomic) NSString * cellNibName;
-@property (nonatomic) NSString * cellClassName;
-@property UITableViewCellStyle cellStyle;
-@property NSIndexPath *indexPath;
-@property (copy) void(^gotoNextBlock)(id);
+@property (nonatomic, assign) NSString * cellNibName;
+@property (nonatomic, assign) NSString * cellClassName;
+@property (nonatomic, assign) UITableViewCellStyle cellStyle;
+@property (nonatomic, assign) NSIndexPath *indexPath;
+@property (nonatomic, copy) void(^gotoNextBlock)(id);
 @property (nonatomic, copy) void(^deselectBlock)(id);
-@property CGFloat cellWidth;
-@property CGFloat cellHeight;
+@property (nonatomic, assign) CGFloat cellWidth;
+@property (nonatomic, assign) CGFloat cellHeight;
 
 @property id args;
 
@@ -42,10 +42,15 @@ typedef NS_ENUM (NSInteger, SQTableViewSectionStyle){
 
 @interface SQTableViewSectionInfo : NSObject
 
-@property (nonatomic) SQTableViewHeadViewInfo * headViewInfo;
-@property (nonatomic) SQTableViewFootViewInfo * footViewInfo;
-@property (nonatomic) NSMutableArray * cellDataArray;
+@property (nonatomic, strong, readonly) SQTableViewHeadViewInfo * headViewInfo;
+@property (nonatomic, strong, readonly) SQTableViewFootViewInfo * footViewInfo;
+@property (nonatomic, strong) NSArray * cellDataArray;
 @property (nonatomic) BOOL isOpen;
+
+@property (nonatomic, weak) UIViewController * viewController;
+
+
+-(void)dispatch;
 
 @end
 
@@ -85,9 +90,9 @@ typedef NS_ENUM (NSInteger, SQTableViewSectionStyle){
 
 @property (nonatomic, copy) void(^didScrollBlock)();
 @property (nonatomic, copy) void(^didEndScrollBlock)();
-@property (nonatomic) BOOL canEdit;
-@property (nonatomic) UITableViewCellEditingStyle editStyle;
-@property (nonatomic) NSMutableArray * sectionTitles;
+@property (nonatomic, assign) BOOL canEdit;
+@property (nonatomic, assign) UITableViewCellEditingStyle editStyle;
+@property (nonatomic, strong) NSArray * sectionTitles;
 
 - (void)loadData:(NSDictionary *(^)()) loadDataBlock;
 

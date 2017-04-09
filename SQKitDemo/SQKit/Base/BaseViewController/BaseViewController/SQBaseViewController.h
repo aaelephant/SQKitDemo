@@ -46,10 +46,10 @@
 
 - (void)pushViewController:(UIViewController *)vc animated:(BOOL)animated;
 
--(void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
--(void)removeNullView;
--(void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
--(void)removeNetErrorV;
+//-(void)showNullView:(UIView*)parentV title:(NSString*)title icon:(NSString*)icon;
+//-(void)removeNullView;
+//-(void)showNetErrorV:(UIView*)parentV reloadBlock:(void(^)())reloadBlock ;
+//-(void)removeNetErrorV;
 
 @property (nonatomic) BOOL hidenStatusBar;
 @end

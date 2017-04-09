@@ -101,7 +101,7 @@
  */
 - (CGSize)collectionViewContentSize
 {
-    int count = (int)[self.collectionView numberOfItemsInSection:0];
+//    int count = (int)[self.collectionView numberOfItemsInSection:0];
     CGFloat rowH = 100;//HEIGHT_HORCELL_SUBCELL*count+COLLECT_CELL_MIN_SPACING*count-COLLECT_CELL_MIN_SPACING-HEIGHT_HORCELL_SUBCELL/2;
     return CGSizeMake(rowH, 0);
 }
