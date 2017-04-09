@@ -15,6 +15,17 @@
 		A13ABBA11E9A534300B9F01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13ABB9F1E9A534300B9F01B /* LaunchScreen.storyboard */; };
 		A13ABBAC1E9A534300B9F01B /* SQKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBAB1E9A534300B9F01B /* SQKitDemoTests.m */; };
 		A13ABBB71E9A534300B9F01B /* SQKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBB61E9A534300B9F01B /* SQKitDemoUITests.m */; };
+		A13ABC361E9A569000B9F01B /* SQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBC81E9A569000B9F01B /* SQCollectionViewFlowLayout.m */; };
+		A13ABC371E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBCA1E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m */; };
+		A13ABC381E9A569000B9F01B /* SQHorCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBCC1E9A569000B9F01B /* SQHorCollectionViewLayout.m */; };
+		A13ABC391E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBCE1E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m */; };
+		A13ABC3C1E9A569000B9F01B /* SQBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBDA1E9A569000B9F01B /* SQBaseCollectionViewController.m */; };
+		A13ABC3D1E9A569000B9F01B /* SQBasePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBDD1E9A569000B9F01B /* SQBasePageViewController.m */; };
+		A13ABC3E1E9A569000B9F01B /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE01E9A569000B9F01B /* SQBaseTableViewController.m */; };
+		A13ABC3F1E9A569000B9F01B /* SQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE31E9A569000B9F01B /* SQBaseViewController.m */; };
+		A13ABC401E9A569000B9F01B /* SQCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE61E9A569000B9F01B /* SQCollectionViewDelegate.m */; };
+		A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE81E9A569000B9F01B /* SQTableViewDelegate.m */; };
+		A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,32 @@
 		A13ABBB21E9A534300B9F01B /* SQKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13ABBB61E9A534300B9F01B /* SQKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQKitDemoUITests.m; sourceTree = "<group>"; };
 		A13ABBB81E9A534300B9F01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13ABBC71E9A569000B9F01B /* SQCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		A13ABBC81E9A569000B9F01B /* SQCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		A13ABBC91E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQGroupIconSpaceCollVFlowLayout.h; sourceTree = "<group>"; };
+		A13ABBCA1E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQGroupIconSpaceCollVFlowLayout.m; sourceTree = "<group>"; };
+		A13ABBCB1E9A569000B9F01B /* SQHorCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHorCollectionViewLayout.h; sourceTree = "<group>"; };
+		A13ABBCC1E9A569000B9F01B /* SQHorCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHorCollectionViewLayout.m; sourceTree = "<group>"; };
+		A13ABBCD1E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQZeroSpaceCollVFlowLayout.h; sourceTree = "<group>"; };
+		A13ABBCE1E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQZeroSpaceCollVFlowLayout.m; sourceTree = "<group>"; };
+		A13ABBD61E9A569000B9F01B /* BaseBackForResultDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackForResultDelegate.h; sourceTree = "<group>"; };
+		A13ABBD91E9A569000B9F01B /* SQBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseCollectionViewController.h; sourceTree = "<group>"; };
+		A13ABBDA1E9A569000B9F01B /* SQBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseCollectionViewController.m; sourceTree = "<group>"; };
+		A13ABBDC1E9A569000B9F01B /* SQBasePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBasePageViewController.h; sourceTree = "<group>"; };
+		A13ABBDD1E9A569000B9F01B /* SQBasePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBasePageViewController.m; sourceTree = "<group>"; };
+		A13ABBDF1E9A569000B9F01B /* SQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewController.h; sourceTree = "<group>"; };
+		A13ABBE01E9A569000B9F01B /* SQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewController.m; sourceTree = "<group>"; };
+		A13ABBE21E9A569000B9F01B /* SQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseViewController.h; sourceTree = "<group>"; };
+		A13ABBE31E9A569000B9F01B /* SQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseViewController.m; sourceTree = "<group>"; };
+		A13ABBE51E9A569000B9F01B /* SQCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCollectionViewDelegate.h; sourceTree = "<group>"; };
+		A13ABBE61E9A569000B9F01B /* SQCollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCollectionViewDelegate.m; sourceTree = "<group>"; };
+		A13ABBE71E9A569000B9F01B /* SQTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTableViewDelegate.h; sourceTree = "<group>"; };
+		A13ABBE81E9A569000B9F01B /* SQTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTableViewDelegate.m; sourceTree = "<group>"; };
+		A13ABC601E9A58F300B9F01B /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		A13ABC621E9A5CE100B9F01B /* SQDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDefine.h; sourceTree = "<group>"; };
+		A13ABC641E9A5D3F00B9F01B /* SQKeyboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQKeyboardTool.h; sourceTree = "<group>"; };
+		A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQKeyboardTool.m; sourceTree = "<group>"; };
+		A13ABC671E9A5DD800B9F01B /* SNUtilToolHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNUtilToolHead.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +138,7 @@
 		A13ABB901E9A534300B9F01B /* SQKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A13ABBC41E9A569000B9F01B /* SQKit */,
 				A13ABB941E9A534300B9F01B /* AppDelegate.h */,
 				A13ABB951E9A534300B9F01B /* AppDelegate.m */,
 				A13ABB971E9A534300B9F01B /* ViewController.h */,
@@ -118,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				A13ABB921E9A534300B9F01B /* main.m */,
+				A13ABC601E9A58F300B9F01B /* PrefixHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +177,118 @@
 				A13ABBB81E9A534300B9F01B /* Info.plist */,
 			);
 			path = SQKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		A13ABBC41E9A569000B9F01B /* SQKit */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABC671E9A5DD800B9F01B /* SNUtilToolHead.h */,
+				A13ABC621E9A5CE100B9F01B /* SQDefine.h */,
+				A13ABC631E9A5D3F00B9F01B /* KeyboardTool */,
+				A13ABBC51E9A569000B9F01B /* Base */,
+				A13ABBE41E9A569000B9F01B /* Core */,
+			);
+			path = SQKit;
+			sourceTree = "<group>";
+		};
+		A13ABBC51E9A569000B9F01B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBC61E9A569000B9F01B /* BaseLayout */,
+				A13ABBD51E9A569000B9F01B /* BaseProtocol */,
+				A13ABBD71E9A569000B9F01B /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A13ABBC61E9A569000B9F01B /* BaseLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBC71E9A569000B9F01B /* SQCollectionViewFlowLayout.h */,
+				A13ABBC81E9A569000B9F01B /* SQCollectionViewFlowLayout.m */,
+				A13ABBC91E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.h */,
+				A13ABBCA1E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m */,
+				A13ABBCB1E9A569000B9F01B /* SQHorCollectionViewLayout.h */,
+				A13ABBCC1E9A569000B9F01B /* SQHorCollectionViewLayout.m */,
+				A13ABBCD1E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.h */,
+				A13ABBCE1E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m */,
+			);
+			path = BaseLayout;
+			sourceTree = "<group>";
+		};
+		A13ABBD51E9A569000B9F01B /* BaseProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBD61E9A569000B9F01B /* BaseBackForResultDelegate.h */,
+			);
+			path = BaseProtocol;
+			sourceTree = "<group>";
+		};
+		A13ABBD71E9A569000B9F01B /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBD81E9A569000B9F01B /* BaseCollectionViewController */,
+				A13ABBDB1E9A569000B9F01B /* BasePageViewController */,
+				A13ABBDE1E9A569000B9F01B /* BaseTableViewController */,
+				A13ABBE11E9A569000B9F01B /* BaseViewController */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		A13ABBD81E9A569000B9F01B /* BaseCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBD91E9A569000B9F01B /* SQBaseCollectionViewController.h */,
+				A13ABBDA1E9A569000B9F01B /* SQBaseCollectionViewController.m */,
+			);
+			path = BaseCollectionViewController;
+			sourceTree = "<group>";
+		};
+		A13ABBDB1E9A569000B9F01B /* BasePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBDC1E9A569000B9F01B /* SQBasePageViewController.h */,
+				A13ABBDD1E9A569000B9F01B /* SQBasePageViewController.m */,
+			);
+			path = BasePageViewController;
+			sourceTree = "<group>";
+		};
+		A13ABBDE1E9A569000B9F01B /* BaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBDF1E9A569000B9F01B /* SQBaseTableViewController.h */,
+				A13ABBE01E9A569000B9F01B /* SQBaseTableViewController.m */,
+			);
+			path = BaseTableViewController;
+			sourceTree = "<group>";
+		};
+		A13ABBE11E9A569000B9F01B /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBE21E9A569000B9F01B /* SQBaseViewController.h */,
+				A13ABBE31E9A569000B9F01B /* SQBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		A13ABBE41E9A569000B9F01B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABBE51E9A569000B9F01B /* SQCollectionViewDelegate.h */,
+				A13ABBE61E9A569000B9F01B /* SQCollectionViewDelegate.m */,
+				A13ABBE71E9A569000B9F01B /* SQTableViewDelegate.h */,
+				A13ABBE81E9A569000B9F01B /* SQTableViewDelegate.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A13ABC631E9A5D3F00B9F01B /* KeyboardTool */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABC641E9A5D3F00B9F01B /* SQKeyboardTool.h */,
+				A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */,
+			);
+			path = KeyboardTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +425,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13ABC381E9A569000B9F01B /* SQHorCollectionViewLayout.m in Sources */,
+				A13ABC401E9A569000B9F01B /* SQCollectionViewDelegate.m in Sources */,
+				A13ABC361E9A569000B9F01B /* SQCollectionViewFlowLayout.m in Sources */,
+				A13ABC3C1E9A569000B9F01B /* SQBaseCollectionViewController.m in Sources */,
 				A13ABB991E9A534300B9F01B /* ViewController.m in Sources */,
 				A13ABB961E9A534300B9F01B /* AppDelegate.m in Sources */,
 				A13ABB931E9A534300B9F01B /* main.m in Sources */,
+				A13ABC3F1E9A569000B9F01B /* SQBaseViewController.m in Sources */,
+				A13ABC3E1E9A569000B9F01B /* SQBaseTableViewController.m in Sources */,
+				A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */,
+				A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */,
+				A13ABC3D1E9A569000B9F01B /* SQBasePageViewController.m in Sources */,
+				A13ABC371E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m in Sources */,
+				A13ABC391E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				GCC_PREFIX_HEADER = SQKitDemo/PrefixHeader.h;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				GCC_PREFIX_HEADER = SQKitDemo/PrefixHeader.h;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
