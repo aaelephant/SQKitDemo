@@ -427,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6EYUBTRJ5;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L6EYUBTRJ5;
 				INFOPLIST_FILE = SQKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +512,7 @@
 				A13ABBBD1E9A534300B9F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13ABBBE1E9A534300B9F01B /* Build configuration list for PBXNativeTarget "SQKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +521,7 @@
 				A13ABBC01E9A534300B9F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13ABBC11E9A534300B9F01B /* Build configuration list for PBXNativeTarget "SQKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +530,7 @@
 				A13ABBC31E9A534300B9F01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
