@@ -10,6 +10,7 @@
 #define SQDefine_h
 
 #import "SNUtilToolHead.h"
+#import "WVRRouterDispatcher.h"
 
 #define SQToast(TEXT) ([SQToastTool showMessageCenter:self.view.window withMessage:TEXT? TEXT:@""])
 #define SQToastIn(TEXT,VIEW) ([SQToastTool showMessageCenter:VIEW.window withMessage:TEXT? TEXT:@""])

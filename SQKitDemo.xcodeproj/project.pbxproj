@@ -27,6 +27,14 @@
 		A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABBE81E9A569000B9F01B /* SQTableViewDelegate.m */; };
 		A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC651E9A5D3F00B9F01B /* SQKeyboardTool.m */; };
 		A13ABC6B1E9A62C400B9F01B /* WVRRouterDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC6A1E9A62C400B9F01B /* WVRRouterDispatcher.m */; };
+		A13ABC721E9B2D0700B9F01B /* ATableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC711E9B2D0700B9F01B /* ATableHeaderView.m */; };
+		A13ABC741E9B2DA300B9F01B /* ATableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13ABC731E9B2DA300B9F01B /* ATableHeaderView.xib */; };
+		A13ABC771E9B2E4200B9F01B /* ATableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC761E9B2E4200B9F01B /* ATableCell.m */; };
+		A13ABC791E9B2E4700B9F01B /* ATableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13ABC781E9B2E4700B9F01B /* ATableCell.xib */; };
+		A13ABC7D1E9B2EB400B9F01B /* ASectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC7C1E9B2EB400B9F01B /* ASectionInfo.m */; };
+		A13ABC811E9B2F7A00B9F01B /* SQBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC801E9B2F7A00B9F01B /* SQBaseViewModel.m */; };
+		A13ABC841E9B2FA100B9F01B /* SQCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC831E9B2FA100B9F01B /* SQCellViewModel.m */; };
+		A13ABC871E9B2FAE00B9F01B /* SQSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABC861E9B2FAE00B9F01B /* SQSectionViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +100,20 @@
 		A13ABC681E9A5F5C00B9F01B /* SQBaseControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseControllerDelegate.h; sourceTree = "<group>"; };
 		A13ABC691E9A62C400B9F01B /* WVRRouterDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRRouterDispatcher.h; sourceTree = "<group>"; };
 		A13ABC6A1E9A62C400B9F01B /* WVRRouterDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRRouterDispatcher.m; sourceTree = "<group>"; };
+		A13ABC701E9B2D0700B9F01B /* ATableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATableHeaderView.h; sourceTree = "<group>"; };
+		A13ABC711E9B2D0700B9F01B /* ATableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATableHeaderView.m; sourceTree = "<group>"; };
+		A13ABC731E9B2DA300B9F01B /* ATableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATableHeaderView.xib; sourceTree = "<group>"; };
+		A13ABC751E9B2E4200B9F01B /* ATableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATableCell.h; sourceTree = "<group>"; };
+		A13ABC761E9B2E4200B9F01B /* ATableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATableCell.m; sourceTree = "<group>"; };
+		A13ABC781E9B2E4700B9F01B /* ATableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATableCell.xib; sourceTree = "<group>"; };
+		A13ABC7B1E9B2EB400B9F01B /* ASectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASectionInfo.h; sourceTree = "<group>"; };
+		A13ABC7C1E9B2EB400B9F01B /* ASectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASectionInfo.m; sourceTree = "<group>"; };
+		A13ABC7F1E9B2F7A00B9F01B /* SQBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQBaseViewModel.h; sourceTree = "<group>"; };
+		A13ABC801E9B2F7A00B9F01B /* SQBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQBaseViewModel.m; sourceTree = "<group>"; };
+		A13ABC821E9B2FA100B9F01B /* SQCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCellViewModel.h; sourceTree = "<group>"; };
+		A13ABC831E9B2FA100B9F01B /* SQCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCellViewModel.m; sourceTree = "<group>"; };
+		A13ABC851E9B2FAE00B9F01B /* SQSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSectionViewModel.h; sourceTree = "<group>"; };
+		A13ABC861E9B2FAE00B9F01B /* SQSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSectionViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +164,12 @@
 		A13ABB901E9A534300B9F01B /* SQKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A13ABC7E1E9B2F5400B9F01B /* ViewModel */,
 				A13ABBC41E9A569000B9F01B /* SQKit */,
 				A13ABB941E9A534300B9F01B /* AppDelegate.h */,
 				A13ABB951E9A534300B9F01B /* AppDelegate.m */,
+				A13ABC6F1E9B2CA900B9F01B /* Cells */,
+				A13ABC7A1E9B2E9F00B9F01B /* SectionInfos */,
 				A13ABB971E9A534300B9F01B /* ViewController.h */,
 				A13ABB981E9A534300B9F01B /* ViewController.m */,
 				A13ABB9A1E9A534300B9F01B /* Main.storyboard */,
@@ -298,6 +323,41 @@
 			path = KeyboardTool;
 			sourceTree = "<group>";
 		};
+		A13ABC6F1E9B2CA900B9F01B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABC701E9B2D0700B9F01B /* ATableHeaderView.h */,
+				A13ABC711E9B2D0700B9F01B /* ATableHeaderView.m */,
+				A13ABC731E9B2DA300B9F01B /* ATableHeaderView.xib */,
+				A13ABC751E9B2E4200B9F01B /* ATableCell.h */,
+				A13ABC761E9B2E4200B9F01B /* ATableCell.m */,
+				A13ABC781E9B2E4700B9F01B /* ATableCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A13ABC7A1E9B2E9F00B9F01B /* SectionInfos */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABC7B1E9B2EB400B9F01B /* ASectionInfo.h */,
+				A13ABC7C1E9B2EB400B9F01B /* ASectionInfo.m */,
+			);
+			path = SectionInfos;
+			sourceTree = "<group>";
+		};
+		A13ABC7E1E9B2F5400B9F01B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A13ABC7F1E9B2F7A00B9F01B /* SQBaseViewModel.h */,
+				A13ABC801E9B2F7A00B9F01B /* SQBaseViewModel.m */,
+				A13ABC821E9B2FA100B9F01B /* SQCellViewModel.h */,
+				A13ABC831E9B2FA100B9F01B /* SQCellViewModel.m */,
+				A13ABC851E9B2FAE00B9F01B /* SQSectionViewModel.h */,
+				A13ABC861E9B2FAE00B9F01B /* SQSectionViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,6 +467,8 @@
 			files = (
 				A13ABBA11E9A534300B9F01B /* LaunchScreen.storyboard in Resources */,
 				A13ABB9E1E9A534300B9F01B /* Assets.xcassets in Resources */,
+				A13ABC791E9B2E4700B9F01B /* ATableCell.xib in Resources */,
+				A13ABC741E9B2DA300B9F01B /* ATableHeaderView.xib in Resources */,
 				A13ABB9C1E9A534300B9F01B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +494,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13ABC841E9B2FA100B9F01B /* SQCellViewModel.m in Sources */,
 				A13ABC381E9A569000B9F01B /* SQHorCollectionViewLayout.m in Sources */,
 				A13ABC401E9A569000B9F01B /* SQCollectionViewDelegate.m in Sources */,
 				A13ABC361E9A569000B9F01B /* SQCollectionViewFlowLayout.m in Sources */,
 				A13ABC3C1E9A569000B9F01B /* SQBaseCollectionViewController.m in Sources */,
+				A13ABC771E9B2E4200B9F01B /* ATableCell.m in Sources */,
 				A13ABB991E9A534300B9F01B /* ViewController.m in Sources */,
+				A13ABC721E9B2D0700B9F01B /* ATableHeaderView.m in Sources */,
 				A13ABB961E9A534300B9F01B /* AppDelegate.m in Sources */,
 				A13ABB931E9A534300B9F01B /* main.m in Sources */,
 				A13ABC3F1E9A569000B9F01B /* SQBaseViewController.m in Sources */,
@@ -445,6 +510,9 @@
 				A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */,
 				A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */,
 				A13ABC3D1E9A569000B9F01B /* SQBasePageViewController.m in Sources */,
+				A13ABC7D1E9B2EB400B9F01B /* ASectionInfo.m in Sources */,
+				A13ABC811E9B2F7A00B9F01B /* SQBaseViewModel.m in Sources */,
+				A13ABC871E9B2FAE00B9F01B /* SQSectionViewModel.m in Sources */,
 				A13ABC371E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m in Sources */,
 				A13ABC391E9A569000B9F01B /* SQZeroSpaceCollVFlowLayout.m in Sources */,
 			);

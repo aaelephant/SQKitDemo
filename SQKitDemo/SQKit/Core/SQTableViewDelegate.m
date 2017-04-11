@@ -233,16 +233,8 @@
 
 @end
 @implementation SQTableViewSectionInfo
-@synthesize cellDataArray = _cellDataArray;
--(NSMutableArray *)cellDataArray
-{
-    if (!_cellDataArray) {
-        _cellDataArray = [NSMutableArray array];
-    }
-    return _cellDataArray;
-}
 
--(void)dispatch
+-(void)dispatch:(id)args
 {
 
 }

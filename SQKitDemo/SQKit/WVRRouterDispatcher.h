@@ -11,7 +11,7 @@
 @interface WVRRouterDispatcher : NSObject
 + (void)registerSection:(NSString *)sectionID className:(NSString*)className;
 
-+ (id)dispatchSection:(NSString *)sectionID args:(id)args collectionView:(id)collectionView;
++ (id)dispatchSection:(NSString *)sectionID args:(id)args;
 
 + (void)registerPage:(NSString *)pageID className:(NSString*)className;
 

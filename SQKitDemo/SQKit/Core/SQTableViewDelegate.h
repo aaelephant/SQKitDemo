@@ -17,10 +17,10 @@ typedef NS_ENUM (NSInteger, SQTableViewSectionStyle){
 
 @interface SQBaseTableViewInfo : NSObject
 
-@property (nonatomic, assign) NSString * cellNibName;
-@property (nonatomic, assign) NSString * cellClassName;
+@property (nonatomic, strong) NSString * cellNibName;
+@property (nonatomic, strong) NSString * cellClassName;
 @property (nonatomic, assign) UITableViewCellStyle cellStyle;
-@property (nonatomic, assign) NSIndexPath *indexPath;
+@property (nonatomic, strong) NSIndexPath *indexPath;
 @property (nonatomic, copy) void(^gotoNextBlock)(id);
 @property (nonatomic, copy) void(^deselectBlock)(id);
 @property (nonatomic, assign) CGFloat cellWidth;
@@ -50,7 +50,7 @@ typedef NS_ENUM (NSInteger, SQTableViewSectionStyle){
 @property (nonatomic, weak) UIViewController * viewController;
 
 
--(void)dispatch;
+-(void)dispatch:(id)args;
 
 @end
 

@@ -22,13 +22,14 @@ static NSMutableDictionary<NSString */*page*/, NSString */*dispatcherClazz*/>* k
     kSections[sectionID] = className;
 }
 
-+ (SQTableViewSectionInfo*)dispatchSection:(NSString *)sectionID args:(id)args collectionView:(UICollectionView*)collectionView{
++ (SQTableViewSectionInfo*)dispatchSection:(NSString *)sectionID args:(id)args{
     NSString *dispatcherClazz = kSections[sectionID];
     if (dispatcherClazz == nil) {
         return nil;
     }
     Class dispatcherClass = NSClassFromString(dispatcherClazz);
     SQTableViewSectionInfo* dispatcher = [[dispatcherClass alloc] init];
+    [dispatcher dispatch:args];
     return dispatcher;
 }
 
