@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1039D061EB0A5B400CE0128 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1039D051EB0A5B400CE0128 /* NormalViewController.m */; };
+		A1039D091EB0A5C900CE0128 /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1039D081EB0A5C900CE0128 /* NormalTableViewCell.m */; };
 		A13ABB931E9A534300B9F01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB921E9A534300B9F01B /* main.m */; };
 		A13ABB961E9A534300B9F01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB951E9A534300B9F01B /* AppDelegate.m */; };
 		A13ABB991E9A534300B9F01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB981E9A534300B9F01B /* ViewController.m */; };
@@ -55,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1039D041EB0A5B400CE0128 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		A1039D051EB0A5B400CE0128 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		A1039D071EB0A5C900CE0128 /* NormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewCell.h; sourceTree = "<group>"; };
+		A1039D081EB0A5C900CE0128 /* NormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewCell.m; sourceTree = "<group>"; };
 		A13ABB8E1E9A534300B9F01B /* SQKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13ABB921E9A534300B9F01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A13ABB941E9A534300B9F01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +147,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1039D031EB0A59A00CE0128 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				A1039D041EB0A5B400CE0128 /* NormalViewController.h */,
+				A1039D051EB0A5B400CE0128 /* NormalViewController.m */,
+				A1039D071EB0A5C900CE0128 /* NormalTableViewCell.h */,
+				A1039D081EB0A5C900CE0128 /* NormalTableViewCell.m */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
 		A13ABB851E9A534300B9F01B = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +181,7 @@
 		A13ABB901E9A534300B9F01B /* SQKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A1039D031EB0A59A00CE0128 /* Normal */,
 				A13ABC7E1E9B2F5400B9F01B /* ViewModel */,
 				A13ABBC41E9A569000B9F01B /* SQKit */,
 				A13ABB941E9A534300B9F01B /* AppDelegate.h */,
@@ -507,10 +525,12 @@
 				A13ABC3F1E9A569000B9F01B /* SQBaseViewController.m in Sources */,
 				A13ABC6B1E9A62C400B9F01B /* WVRRouterDispatcher.m in Sources */,
 				A13ABC3E1E9A569000B9F01B /* SQBaseTableViewController.m in Sources */,
+				A1039D091EB0A5C900CE0128 /* NormalTableViewCell.m in Sources */,
 				A13ABC411E9A569000B9F01B /* SQTableViewDelegate.m in Sources */,
 				A13ABC661E9A5D3F00B9F01B /* SQKeyboardTool.m in Sources */,
 				A13ABC3D1E9A569000B9F01B /* SQBasePageViewController.m in Sources */,
 				A13ABC7D1E9B2EB400B9F01B /* ASectionInfo.m in Sources */,
+				A1039D061EB0A5B400CE0128 /* NormalViewController.m in Sources */,
 				A13ABC811E9B2F7A00B9F01B /* SQBaseViewModel.m in Sources */,
 				A13ABC871E9B2FAE00B9F01B /* SQSectionViewModel.m in Sources */,
 				A13ABC371E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m in Sources */,

@@ -55,10 +55,10 @@ compatibility_alias _WVRRouterDispatcher WVRRouterDispatcher; \
     [WVRRouterDispatcher registerSection:_sectionID_ className:_className_]; \
 }
 
-#define page(_pageID_, _className_) \
+#define viewController(_pageID_, _className_) \
 compatibility_alias _WVRRouterDispatcher WVRRouterDispatcher; \
 +(void)load { \
-[WVRRouterDispatcher registerPage:_pageID_ className:_className_]; \
+[WVRRouterDispatcher registerViewController:_pageID_ className:_className_]; \
 }
 
 

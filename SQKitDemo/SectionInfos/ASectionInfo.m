@@ -25,12 +25,16 @@
     
     _headViewInfo = headerInfo;
     
+    kWeakSelf(self);
     NSMutableArray * cellArrays = [NSMutableArray new];
     for (SQCellViewModel* vModel in args.cellViewModels) {
         SQTableViewCellInfo * cellInfo = [SQTableViewCellInfo new];
         cellInfo.cellNibName = NSStringFromClass([ATableCell class]);
         cellInfo.cellHeight = 44.f;
         cellInfo.args = vModel;
+        cellInfo.gotoNextBlock = ^(id args){
+            [weakself.viewController.navigationController pushViewController:[WVRRouterDispatcher dispatchController:@"NormalViewController" args:nil] animated:YES];
+        };
         [cellArrays addObject:cellInfo];
     }
     

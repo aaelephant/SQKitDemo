@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Snailvr. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface WVRRouterDispatcher : NSObject
 + (void)registerSection:(NSString *)sectionID className:(NSString*)className;
@@ -16,4 +16,8 @@
 + (void)registerPage:(NSString *)pageID className:(NSString*)className;
 
 + (id)dispatchPage:(NSString *)pageID args:(id)args attchView:(id)attchView;
+
++ (void)registerViewController:(NSString *)viewControllerID className:(NSString*)className;
+
++ (UIViewController *)dispatchController:(NSString *)viewControllerID args:(id)args;
 @end

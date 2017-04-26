@@ -15,6 +15,8 @@ static NSMutableDictionary<NSString */*page*/, NSString */*dispatcherClazz*/>* k
 
 static NSMutableDictionary<NSString */*page*/, NSString */*dispatcherClazz*/>* kPages;
 
+static NSMutableDictionary<NSString */*page*/, NSString */*dispatcherClazz*/>* kViewControllers;
+
 + (void)registerSection:(NSString *)sectionID className:(NSString*)className{
     if (kSections == nil) {
         kSections = [[NSMutableDictionary alloc] init];
@@ -48,6 +50,25 @@ static NSMutableDictionary<NSString */*page*/, NSString */*dispatcherClazz*/>* k
     Class dispatcherClass = NSClassFromString(dispatcherClazz);
 //    WVRBaseSubPagePresenter* dispatcher = [(id<WVRFixRecommendPresenter>)[dispatcherClass alloc] initWithParams:args attchView:attchView];
     return nil;
+}
+
++ (void)registerViewController:(NSString *)viewControllerID className:(NSString*)className{
+    if (kViewControllers == nil) {
+        kViewControllers = [[NSMutableDictionary alloc] init];
+    }
+    kViewControllers[viewControllerID] = className;
+}
+
++ (UIViewController *)dispatchController:(NSString *)viewControllerID args:(id)args{
+    NSString *dispatcherClazz = kViewControllers[viewControllerID];
+    if (dispatcherClazz == nil) {
+        return nil;
+    }
+    Class dispatcherClass = NSClassFromString(dispatcherClazz);
+    UIViewController * dispatcher = [[dispatcherClass alloc] init];
+    
+    //    WVRBaseSubPagePresenter* dispatcher = [(id<WVRFixRecommendPresenter>)[dispatcherClass alloc] initWithParams:args attchView:attchView];
+    return dispatcher;
 }
 
 //-(id)dispatchWithArgs:(id)args

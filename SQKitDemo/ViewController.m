@@ -56,7 +56,9 @@
     }
     NSArray* testSectionData = [self testSectionData];
     for (SQSectionViewModel* cur in testSectionData) {
-        self.originDic[@([testSectionData indexOfObject:cur])] = [WVRRouterDispatcher dispatchSection:cur.uid args:cur];
+        SQTableViewSectionInfo* sectionInfo = [WVRRouterDispatcher dispatchSection:cur.uid args:cur];
+        sectionInfo.viewController = self;
+        self.originDic[@([testSectionData indexOfObject:cur])] = sectionInfo;
     }
     [self updateTableView];
 }
