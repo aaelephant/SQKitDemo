@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A1039D061EB0A5B400CE0128 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1039D051EB0A5B400CE0128 /* NormalViewController.m */; };
 		A1039D091EB0A5C900CE0128 /* NormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1039D081EB0A5C900CE0128 /* NormalTableViewCell.m */; };
+		A11431791EB1EEC6002598A6 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11431781EB1EEC6002598A6 /* SplitViewController.m */; };
 		A13ABB931E9A534300B9F01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB921E9A534300B9F01B /* main.m */; };
 		A13ABB961E9A534300B9F01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB951E9A534300B9F01B /* AppDelegate.m */; };
 		A13ABB991E9A534300B9F01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13ABB981E9A534300B9F01B /* ViewController.m */; };
@@ -61,6 +62,8 @@
 		A1039D051EB0A5B400CE0128 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
 		A1039D071EB0A5C900CE0128 /* NormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewCell.h; sourceTree = "<group>"; };
 		A1039D081EB0A5C900CE0128 /* NormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewCell.m; sourceTree = "<group>"; };
+		A11431771EB1EEC6002598A6 /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		A11431781EB1EEC6002598A6 /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
 		A13ABB8E1E9A534300B9F01B /* SQKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13ABB921E9A534300B9F01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A13ABB941E9A534300B9F01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +161,15 @@
 			path = Normal;
 			sourceTree = "<group>";
 		};
+		A11431761EB1EEA8002598A6 /* Split */ = {
+			isa = PBXGroup;
+			children = (
+				A11431771EB1EEC6002598A6 /* SplitViewController.h */,
+				A11431781EB1EEC6002598A6 /* SplitViewController.m */,
+			);
+			path = Split;
+			sourceTree = "<group>";
+		};
 		A13ABB851E9A534300B9F01B = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +193,7 @@
 		A13ABB901E9A534300B9F01B /* SQKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A11431761EB1EEA8002598A6 /* Split */,
 				A1039D031EB0A59A00CE0128 /* Normal */,
 				A13ABC7E1E9B2F5400B9F01B /* ViewModel */,
 				A13ABBC41E9A569000B9F01B /* SQKit */,
@@ -531,6 +544,7 @@
 				A13ABC3D1E9A569000B9F01B /* SQBasePageViewController.m in Sources */,
 				A13ABC7D1E9B2EB400B9F01B /* ASectionInfo.m in Sources */,
 				A1039D061EB0A5B400CE0128 /* NormalViewController.m in Sources */,
+				A11431791EB1EEC6002598A6 /* SplitViewController.m in Sources */,
 				A13ABC811E9B2F7A00B9F01B /* SQBaseViewModel.m in Sources */,
 				A13ABC871E9B2FAE00B9F01B /* SQSectionViewModel.m in Sources */,
 				A13ABC371E9A569000B9F01B /* SQGroupIconSpaceCollVFlowLayout.m in Sources */,

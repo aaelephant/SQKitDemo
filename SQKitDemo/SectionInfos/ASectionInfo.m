@@ -32,8 +32,8 @@
         cellInfo.cellNibName = NSStringFromClass([ATableCell class]);
         cellInfo.cellHeight = 44.f;
         cellInfo.args = vModel;
-        cellInfo.gotoNextBlock = ^(id args){
-            [weakself.viewController.navigationController pushViewController:[WVRRouterDispatcher dispatchController:@"NormalViewController" args:nil] animated:YES];
+        cellInfo.gotoNextBlock = ^(SQTableViewCellInfo* args){
+            [weakself.viewController.navigationController pushViewController:[WVRRouterDispatcher dispatchController:[args.args gNextPageID] args:nil] animated:YES];
         };
         [cellArrays addObject:cellInfo];
     }

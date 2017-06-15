@@ -10,4 +10,6 @@
 
 @interface SQCellViewModel : SQBaseViewModel
 
+@property (nonatomic, strong) NSString * gNextPageID;
+
 @end
